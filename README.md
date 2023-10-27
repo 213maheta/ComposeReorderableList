@@ -1,8 +1,8 @@
-![Screenshot from 2023-06-14 09-56-29](https://github.com/213maheta/ComposeReorderableList/assets/103872646/0b4286c1-ad06-43bf-8c04-ca6486e3a9d8)
 # ComposeReorderableList
 
-1) Add in your gradle
+### 1) Add in your gradle
 
+```
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
@@ -11,14 +11,18 @@ dependencyResolutionManagement {
         **maven { url 'https://jitpack.io' }**
     }
 }
-
-2) Add in your app level build gradle
-   
-   **implementation 'com.github.213maheta:ComposeReorderableList:1.0.1'**
+```
 
 
-3) Add **reOrderableList** in your LazyColumn
+### 2) Add in your app level build gradle
+   ```
+   implementation 'com.github.213maheta:ComposeReorderableList:1.0.1'
+```
 
+
+### 3) Add **reOrderableList** in your LazyColumn
+
+```
 LazyColumn(state = listState,
         modifier = Modifier
             .fillMaxWidth()
@@ -27,10 +31,11 @@ LazyColumn(state = listState,
                 pageNumberList.swap(selected, hover)
             }**
     ) {............
+```
 
 
-4) Add **.reOrderableItem(index)** in your list item
-
+### 4) Add **.reOrderableItem(index)** in your list item
+```
 Row(
         modifier = Modifier
             .fillMaxWidth()
@@ -43,4 +48,9 @@ Row(
             )
             .padding(10.dp)
     )
-    {    
+    {
+```  
+
+
+https://github.com/213maheta/ComposeReorderableList/assets/103872646/0e5850b4-b433-4f40-89e1-64494c7d0f9f
+
