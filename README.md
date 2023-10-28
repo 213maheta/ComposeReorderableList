@@ -51,6 +51,6 @@ Row(
     {
 ```  
 
-
-https://github.com/213maheta/ComposeReorderableList/assets/103872646/0e5850b4-b433-4f40-89e1-64494c7d0f9f
-
+<div align="center">
+  <video src="https://github.com/213maheta/ComposeReorderableList/assets/103872646/0e5850b4-b433-4f40-89e1-64494c7d0f9f" />
+</div>
